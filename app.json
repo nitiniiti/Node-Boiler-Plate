@@ -1,0 +1,11 @@
+{
+    "name": "backend-abstraction-layer",
+    "description": "Abstraction layer which communicates between internal microservices and mobile app",
+    "keywords": ["node", "express", "mysql"],
+    "env": {
+        "WEB_CONCURRENCY": {
+            "description": "The number of processes to run.",
+            "value": "1"
+        }
+    }
+}

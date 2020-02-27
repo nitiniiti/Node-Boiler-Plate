@@ -1,0 +1,46 @@
+{
+  "name": "backend-abstraction-layer",
+  "description": "Abstraction layer which communicates between internal microservices and mobile app",
+  "version": "0.0.1",
+  "private": false,
+  "author": "Nitin Tyagi",
+  "repository": {
+    "type": "git"
+  },
+  "engines": {
+    "node": "8.1.x",
+    "npm": "5.6.x"
+  },
+  "scripts": {
+    "start": "",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "async": "latest",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.14.1",
+    "compression": "^1.6.0",
+    "cookie-parser": "^1.4.0",
+    "express": "^4.13.3",
+    "glob": "^6.0.1",
+    "json5": "^0.4.0",
+    "jsonwebtoken": "^8.2.0",
+    "lodash": "latest",
+    "method-override": "^2.3.5",
+    "morgan": "^1.6.1",
+    "mysql": "^2.9.0",
+    "nconf": "^0.8.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "sequelize": "^3.13.0",
+    "serve-favicon": "^2.3.0",
+    "standard-error": "^1.1.0",
+    "validator": "^9.4.1",
+    "winston": "latest"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "chai": "^4.1.2"
+  }
+}
