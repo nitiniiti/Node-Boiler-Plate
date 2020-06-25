@@ -5,7 +5,6 @@
  */
 var jwt = require('jsonwebtoken');
 var validator = require('validator');
-var bcrypt = require('bcrypt');
 var config = require('config/config');
 var db = require('config/sequelize');
 var logger = require('config/winston');
